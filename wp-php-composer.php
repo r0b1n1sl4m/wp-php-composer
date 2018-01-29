@@ -13,6 +13,9 @@ if ( ! defined( 'WPINC' ) ) {
 	die;
 }
 
+// Require Composer autoload
+require_once plugin_dir_path( __FILE__ ) . 'vendor/autoload.php';
+
 // Require plugin controllers
 require_once plugin_dir_path( __FILE__ ) . 'includes/shortcodes.php';
 

@@ -1,4 +1,7 @@
 <?php
+use Carbon\Carbon;
+
+
 class Shortcodes {
 
 	public function __construct() {
@@ -22,6 +25,7 @@ class Shortcodes {
 	public function current_datetime_shortcode() {
 
 		// Return current datetime
+		return Carbon::now()->toDateTimeString();
 
 	}
 

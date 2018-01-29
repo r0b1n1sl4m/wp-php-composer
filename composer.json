@@ -1,0 +1,8 @@
+{
+    "name": "r0b1n1sl4m/wp-php-composer",
+    "description": "An WordPress plugin that use PHP composer dependency manager.",
+    "type": "wordpress-plugin",
+    "require": {
+        "nesbot/carbon": "^1.22"
+    }
+}
